@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css?family=Molle:400i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Molle:400i|Satisfy&display=swap');
+
+@keyframes Pudar {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @keyframes Muter {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(./img/background-2462434_1280.jpg);
+    background-size: cover;
+    padding: 0;
+}
+.porto {
+    font-family: 'Molle', cursive;
+    width: 20%;
+    padding-left: 20px;
+}
+
+.navi {
+    margin:0;
+    display: flex;
+    background-color: cadetblue;
+    align-items: center;
+    padding: 0;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.navi ul {
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    text-align: center;
+    
+
+}
+.navi ul li {
+    display: flex;
+    list-style-type: none;
+    margin:0;
+    padding: 15px;
+    color: whitesmoke;
+}
+.navi ul li:hover {
+    background-color:#DAF7A6 ;
+    transition: 1s;
+    color: teal;    
+}
+.menu a {
+    display: block;
+    padding:0;    
+    margin-left: 20px;
+    height: 100%;
+    text-decoration: none;
+    
+}
+.aboutme {    
+    margin: 100px auto;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+     /* margin-left: 100px; */
+     height: 500px;
+     width: 80%;
+     background-color: #EEECEB ;
+     align-content: center;
+     font-family: 'Satisfy', cursive;
+     display: flex;
+     flex-direction: column;
+     box-shadow: 3px 3px 5px 6px black;
+     animation: Pudar 5s normal;
+     
+     
+ }
+.about {    
+   /* margin: 100px auto;
+   border-top-left-radius: 60px; */
+    /* margin-left: 100px; */
+    /* height: 700px;
+    width: 80%;
+    background-color: whitesmoke;
+    align-content: center;
+    font-family: 'Satisfy', cursive;
+    */
+    display: flex;
+    flex-direction: row; 
+}
+.foto {
+    background-image: url(./img/65307ace-5218-4aae-a812-2b5e801edd18.jpg);
+    background-size: cover;
+    border-radius: 60px;
+    height: 200px;
+    width: 200px;
+    animation: Muter 5s normal;
+}
+.Judulabout {
+    height: 100px;
+    width: 100px;
+    margin:10px auto;
+    font-size: larger;
+    padding-top: 50px;
+}
+
+.Education {    
+    margin: 100px auto;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+     /* margin-left: 100px; */
+     height: 250px;
+     width: 80%;
+     background-color: #FFFAC8  ;
+     align-content: center;
+     font-family: 'Satisfy', cursive;
+     display: flex;
+     flex-direction: column;
+     box-shadow: 3px 3px 5px 6px black;
+     animation: Pudar 5s normal;
+}
+table {
+    border:black 1px solid;
+    text-align: center;
+    margin: 20px;    
+    animation: Pudar 5s normal;
+}
+tbody{
+    border:black 1px solid;
+}
+thead {
+    border:black 1px solid;
+}
+.Job {    
+    margin: 100px auto;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+     /* margin-left: 100px; */
+     height: 250px;
+     width: 80%;
+     background-color: #F3FFC8  ;
+     align-content: center;
+     font-family: 'Satisfy', cursive;
+     display: flex;
+     flex-direction: column;
+     box-shadow: 3px 3px 5px 6px black;
+     
+}
+.Project {    
+    margin: 100px auto;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+     /* margin-left: 100px; */
+     height: 250px;
+     width: 80%;
+     background-color: #C8FFF9 ;
+     align-content: center;
+     font-family: 'Satisfy', cursive;
+     display: flex;
+     flex-direction: column;
+     box-shadow: 3px 3px 5px 6px black;
+     
+}
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
